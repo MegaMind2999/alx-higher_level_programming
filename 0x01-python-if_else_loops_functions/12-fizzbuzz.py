@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-"""Print the numbers from 1 to 100 separated by a space.
-   with Fizz and Buzz
-  """
 def fizzbuzz():
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
